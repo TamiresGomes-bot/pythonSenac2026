@@ -1,0 +1,25 @@
+"""
+Cap03 - Atividade 01
+Verificar número par e impar
+
+Objetivos
+Nesta atividade você vai usar uma estrutura de decisão (if/else)  para verificar se um
+número é par ou impar.
+
+Comandos utilizados:
+If, operador % (retornar o resto da divisão entre operandos)
+"""
+import os 
+os.system('cls')
+
+numero = int(input ('Informe um número inteiro: '))
+resto = int(numero %2)
+if (resto == 0):
+    print (f'O número {numero} é: PAR')
+else:
+    print (f'O numero {numero} é: IMPAR')
+print()
+print('----------------------')
+print('**********************')
+print('Final do algoritmo!!!!')
+
