@@ -21,7 +21,7 @@ system('cls') if (name=='nt') else system('clear')
 """
 
 
-print('*******CALCULADO DE IMC*****')
+print('*******CALCULADORA DE IMC*******')
 
 alturaCm = float(input ('Informe sua altura em cm: '))
 peso = float(input('Informe seu peso: '))
